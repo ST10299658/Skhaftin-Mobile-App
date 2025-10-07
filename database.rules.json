@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid && (!data.exists() || $uid === auth.uid)"
+      }
+    },
+    "foodlistings": {
+      ".read": "auth != null",
+      "$listingId": {
+        ".write": "auth != null && (!data.exists() || data.child('donorId').val() == auth.uid)"
+      }
+    },
+    "chats": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "impact": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "scheduleddonations": {
+      "$uid": {
+        ".read": "$uid === auth.uid",
+        ".write": "$uid === auth.uid"
+      }
+    },
+    "items": {
+      ".read": "auth != null",
+      "$itemId": {
+        ".write": "auth != null && (!data.exists() || data.child('ownerId').val() === auth.uid)"
+      }
+    }
+  }
+}

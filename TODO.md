@@ -1,0 +1,4 @@
+- [x] Add error parameter to RegisterScreen composable
+- [x] Display error messages in the UI below the register button
+- [x] Add validation for required fields (name, email, password)
+- [x] Pass error from UserViewModel to RegisterScreen

@@ -1,0 +1,65 @@
+{
+  "users": {
+    "testuser123": {
+      "id": "testuser123",
+      "email": "test@example.com",
+      "name": "Test User",
+      "location": "Johannesburg",
+      "language": "English",
+      "preferences": {
+        "vegan": true,
+        "glutenFree": false,
+        "organic": true
+      },
+      "verified": true,
+      "impact": {
+        "donationsMade": 2,
+        "foodSavedKg": 5.0
+      },
+      "phoneNumber": "+27123456789",
+      "token": "testtoken123"
+    }
+  },
+  "items": {
+    "item1": {
+      "id": "item1",
+      "name": "Fresh Apples",
+      "quantity": "10 kg",
+      "description": "Organic red apples",
+      "location": "San Francisco",
+      "imageUrl": "https://example.com/apples.jpg"
+    },
+    "item2": {
+      "id": "item2",
+      "name": "Bread Loaves",
+      "quantity": "20 loaves",
+      "description": "Freshly baked bread",
+      "location": "Oakland",
+      "imageUrl": "https://example.com/bread.jpg"
+    }
+  },
+  "chats": {
+    "chat1": {
+      "participants": {
+        "testuser123": true,
+        "donor456": true
+      },
+      "messages": {
+        "msg1": {
+          "messageId": "msg1",
+          "senderId": "testuser123",
+          "text": "Hi, I'm interested in the apples.",
+          "timestamp": 1710000000,
+          "seen": true
+        },
+        "msg2": {
+          "messageId": "msg2",
+          "senderId": "donor456",
+          "text": "Great! When can you pick them up?",
+          "timestamp": 1710000060,
+          "seen": false
+        }
+      }
+    }
+  }
+}

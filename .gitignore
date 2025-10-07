@@ -1,0 +1,43 @@
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+.gradle/
+local.properties
+proguard/
+*.log
+.navigation/
+captures/
+*.jks
+*.keystore
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java heap dumps
+*.hprof
+
+# Build outputs
+app/build/
+build/
+
+# Firebase
+google-services.json.backup
+
+# Local files
+local.properties

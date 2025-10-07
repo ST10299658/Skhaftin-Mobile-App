@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "411991660559",
+    "firebase_url": "https://skhaftin-2131e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "skhaftin-2131e",
+    "storage_bucket": "skhaftin-2131e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411991660559:android:5fa1e5b3c42e56281eeb7a",
+        "android_client_info": {
+          "package_name": "com.skhaftin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411991660559-4eadnr4gk1sv2qk0paahg4lm6nucu70u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skhaftin",
+            "certificate_hash": "656f6d2fe5cfae33add6efbd5f56d062fcce7096"
+          }
+        },
+        {
+          "client_id": "411991660559-03nhck4na0ql16rq44f0pndi9kqed8ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZWs3JSxlVSEDnqAKLWgLW-M_YnbuBvR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411991660559-03nhck4na0ql16rq44f0pndi9kqed8ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

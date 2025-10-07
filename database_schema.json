@@ -1,0 +1,40 @@
+{
+  "users": {
+    "userId123": {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "phone": "+1234567890",
+      "profileImageUrl": "https://...",
+      "createdAt": 1710000000
+    }
+  },
+  "items": {
+    "itemId456": {
+      "title": "Item Title",
+      "description": "Item description here.",
+      "imageUrl": "https://...",
+      "ownerId": "userId123",
+      "status": "available",
+      "price": 100,
+      "location": "City, Country",
+      "createdAt": 1710000000,
+      "updatedAt": 1710000000
+    }
+  },
+  "chats": {
+    "chatId789": {
+      "itemId": "itemId456",
+      "participants": {
+        "userId123": true,
+        "userId999": true
+      },
+      "messages": {
+        "messageId1": {
+          "senderId": "userId123",
+          "text": "Hello!",
+          "timestamp": 1710000001
+        }
+      }
+    }
+  }
+}

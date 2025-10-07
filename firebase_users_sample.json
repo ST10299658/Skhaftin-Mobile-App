@@ -1,0 +1,42 @@
+{
+  "users": {
+    "user1": {
+      "id": "u001",
+      "email": "alice@example.com",
+      "name": "Alice Mbuyu",
+      "location": "Johannesburg",
+      "language": "English",
+      "preferences": {
+        "vegan": true,
+        "glutenFree": false,
+        "organic": true
+      },
+      "verified": true,
+      "impact": {
+        "donationsMade": 5,
+        "foodSavedKg": 12.5
+      },
+      "phoneNumber": "+27123456789",
+      "token": "token123"
+    },
+    "user2": {
+      "id": "u002",
+      "email": "bob@example.com",
+      "name": "Bob Dlamini",
+      "location": "Durban",
+      "language": "Zulu",
+      "preferences": {
+        "vegan": false,
+        "glutenFree": true,
+        "organic": false
+      },
+      "verified": false,
+      "impact": {
+        "donationsMade": 2,
+        "foodSavedKg": 5
+      },
+      "phoneNumber": "+27654321098",
+      "token": "token456"
+    }
+  }
+}
