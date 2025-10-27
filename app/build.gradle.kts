@@ -114,4 +114,6 @@ dependencies {
     // Coil for image loading
     implementation("io.coil-kt:coil-compose:2.4.0")
 
+    // Biometric authentication
+    implementation("androidx.biometric:biometric:1.1.0")
 }

@@ -2,3 +2,11 @@
 - [x] Display error messages in the UI below the register button
 - [x] Add validation for required fields (name, email, password)
 - [x] Pass error from UserViewModel to RegisterScreen
+- [x] Implement Biometric Authentication for login
+- [ ] Enhance Offline Mode with full sync using Room and WorkManager
+- [x] Add User Settings screen
+- [ ] Ensure Multi-language support for at least two SA languages (Afrikaans, isiZulu)
+- [ ] Prepare app for Play Store publication (signed APK, screenshots, icons)
+- [ ] Update README with comprehensive documentation, release notes
+- [ ] Add automated testing with GitHub Actions
+- [ ] Create demonstration video

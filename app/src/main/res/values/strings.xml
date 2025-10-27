@@ -1,5 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Skhaftin</string>
-    <string name="default_web_client_id">411991660559-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com</string>
+    <string name="back_button">Back</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="biometric_login">Biometric Login</string>
+    <string name="enable_biometric">Enable Biometric Login</string>
+    <string name="biometric_not_available">Biometric authentication is not available on this device.</string>
 </resources>
